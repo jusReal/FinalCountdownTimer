@@ -37,7 +37,8 @@
         setCountDownCallBack //设置倒计时的回调
 
 # Getting started
-
+        git clone https://github.com/MrQ-Android/FinalCountdownTimer.git
+        正在部署到Jcenter仓库的路上.... 以后就可以直接compile了
 
 # Build
       git clone https://github.com/MrQ-Android/FinalCountdownTimer.git
