@@ -2,7 +2,8 @@
 一个根据Android CountDownTimer修改和封装的倒计时的库
 
 # Smaple
-        //可以进行自定义的配置 (都不是必选设置,都有默认值)
+        
+        //可以进行自定义的配置
         FinalCountDownTimer timer = new FinalCountDownTimer.Builder()
                 .setTotalTime(10000) //设置倒计时的总时长 默认5000
                 .setCountDownTime(1000) //设置每一秒倒计时一次 默认 1000
