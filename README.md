@@ -3,8 +3,9 @@
 
 # Getting started
 
-# Build
 
+# Build
+      git clone https://github.com/MrQ-Android/FinalCountdownTimer.git
 
 # Bugs and Feedback
 For bugs, questions and discussions please use the Github Issues.  
