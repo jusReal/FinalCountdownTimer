@@ -1,13 +1,13 @@
 # FinalCountdownTimer
 一个根据Android CountDownTimer修改和封装的倒计时的库
 
-#Getting started
+# Getting started
 
-#Build
+# Build
 
 
-#Bugs and Feedback
+# Bugs and Feedback
 
-#LICENSE
+# LICENSE
 
 
