@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 26
@@ -10,9 +11,6 @@ android {
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -27,8 +25,14 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:26.1.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+
+//添加
+publish {
+    userOrg = 'mrqandroid'//bintray.com用户名
+    repoName = 'maven'
+    groupId = 'com.mrq'//jcenter上的路径
+    artifactId = 'final-countdown'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = '一个根据Android CountDownTimer修改和封装的倒计时的库 (A revise and encapsulated countdown Library Based on Android CountDownTimer)'//描述，不重要
 }
