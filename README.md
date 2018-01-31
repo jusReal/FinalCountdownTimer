@@ -28,7 +28,7 @@
         });
         countDownTimer.start();
         
-        默认值及方法解释:
+        默认值及方法解释:    
         setTotalTime //设置倒计时的总时长 默认5000
         setCountDownTime //设置每一秒倒计时一次 默认 1000
         setOnTickUnit //设置CallBack的onTick的单位 ms 或 s  默认1000
