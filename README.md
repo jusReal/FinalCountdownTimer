@@ -2,6 +2,9 @@
 一个根据Android CountDownTimer修改和封装的倒计时的库
   (A revise and encapsulated countdown Library Based on Android CountDownTimer)
 
+# MyBlog 我的简书博客
+https://www.jianshu.com/u/07ec72974c96
+
 # Smaple
         
         //可以进行自定义的配置 (可以自定义配置,都不是必选设置,都有默认值)
