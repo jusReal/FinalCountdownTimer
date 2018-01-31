@@ -7,6 +7,9 @@
 
 
 # Bugs and Feedback
+For bugs, questions and discussions please use the Github Issues.  
+OR .    
+Write Email to Mrq_android@163.com
 
 # LICENSE
       Copyright [2017-present] [Mr.Q]
