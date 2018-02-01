@@ -41,7 +41,7 @@ https://www.jianshu.com/u/07ec72974c96
         setCountDownCallBack //设置倒计时的回调
 
 # Getting started
-        compile 'com.mrq:final-countdown:1.0.0'
+    compile 'com.mrq:final-countdown:1.0.0'
 
 # Build
       git clone https://github.com/MrQ-Android/FinalCountdownTimer.git
